@@ -10,10 +10,10 @@ This tracker breaks the project into small, incremental, testable features. Each
 
 | Phase | Status | % Complete |
 |---|---|---|
-| Phase 1: Setup | ⬜ | 0% |
-| Phase 2: Data & EDA | ⬜ | 0% |
-| Phase 3: Transaction Encoding | ⬜ | 0% |
-| Phase 4: Frequent Itemset Mining | ⬜ | 0% |
+| Phase 1: Setup | ✅ | 100% |
+| Phase 2: Data & EDA | ✅ | 100% |
+| Phase 3: Transaction Encoding | ✅ | 100% |
+| Phase 4: Frequent Itemset Mining | ✅ | 100% |
 | Phase 5: Association Rule Generation | ⬜ | 0% |
 | Phase 6: Visualization & Insights | ⬜ | 0% |
 | Phase 7 (Optional): Deployment | ⬜ | 0% |
@@ -21,10 +21,10 @@ This tracker breaks the project into small, incremental, testable features. Each
 ---
 
 ## Phase 1 — Project Setup
-- [ ] Create project folder structure (`data/`, `notebooks/`, `src/`, `outputs/`)
-- [ ] Set up virtual environment / install dependencies (`mlxtend`, `pandas`, `networkx`)
-- [ ] Download Online Retail (or Groceries) dataset into `data/`
-- [ ] Create `market_basket_analysis.ipynb` notebook skeleton
+- [x] Create project folder structure (`data/`, `notebooks/`, `src/`, `outputs/`)
+- [x] Set up virtual environment / install dependencies (`mlxtend`, `pandas`, `networkx`)
+- [x] Download Online Retail (or Groceries) dataset into `data/`
+- [x] Create `market_basket_analysis.ipynb` notebook skeleton
 
 **Depends on:** nothing (first step)
 **Unlocks:** Phase 2
@@ -32,12 +32,12 @@ This tracker breaks the project into small, incremental, testable features. Each
 ---
 
 ## Phase 2 — Data Loading & EDA
-- [ ] Load dataset with pandas, inspect shape/dtypes/nulls
-- [ ] Remove cancelled orders / negative quantities / nulls
-- [ ] Identify top 10–20 best-selling items
-- [ ] Analyze basket size distribution (items per transaction)
-- [ ] Explore time-based trends (if timestamp available — e.g. by month/day)
-- [ ] Summarize 3–5 key purchase patterns found (write in notebook markdown)
+- [x] Load dataset with pandas, inspect shape/dtypes/nulls
+- [x] Remove cancelled orders / negative quantities / nulls
+- [x] Identify top 10–20 best-selling items
+- [x] Analyze basket size distribution (items per transaction)
+- [x] Explore time-based trends (if timestamp available — e.g. by month/day)
+- [x] Summarize 3–5 key purchase patterns found (write in notebook markdown)
 
 **Depends on:** Phase 1
 **Unlocks:** Phase 3
@@ -46,10 +46,10 @@ This tracker breaks the project into small, incremental, testable features. Each
 ---
 
 ## Phase 3 — Transaction Encoding
-- [ ] Group raw rows by transaction/invoice ID into item lists
-- [ ] Convert transaction list into one-hot encoded basket matrix using `TransactionEncoder` (mlxtend)
-- [ ] Filter out extremely rare items (optional, to reduce noise/sparsity)
-- [ ] Verify encoded matrix shape (transactions × unique items)
+- [x] Group raw rows by transaction/invoice ID into item lists
+- [x] Convert transaction list into one-hot encoded basket matrix using `TransactionEncoder` (mlxtend)
+- [x] Filter out extremely rare items (optional, to reduce noise/sparsity)
+- [x] Verify encoded matrix shape (transactions × unique items)
 
 **Depends on:** Phase 2
 **Unlocks:** Phase 4
@@ -58,10 +58,10 @@ This tracker breaks the project into small, incremental, testable features. Each
 ---
 
 ## Phase 4 — Frequent Itemset Mining
-- [ ] Run **Apriori** algorithm with a chosen `min_support` threshold
-- [ ] Run **FP-Growth** algorithm with the same `min_support` threshold
-- [ ] Compare runtime/performance of Apriori vs FP-Growth
-- [ ] Inspect top frequent itemsets from each method
+- [x] Run **Apriori** algorithm with a chosen `min_support` threshold
+- [x] Run **FP-Growth** algorithm with the same `min_support` threshold
+- [x] Compare runtime/performance of Apriori vs FP-Growth
+- [x] Inspect top frequent itemsets from each method
 
 **Depends on:** Phase 3
 **Unlocks:** Phase 5
@@ -106,10 +106,10 @@ This tracker breaks the project into small, incremental, testable features. Each
 
 ---
 
-## Change Log
-| Date | Change | By |
-|---|---|---|
-| _(fill in)_ | Project initialized, README + Tracker created | — |
+```
+this part was now properly updated so i removed it 
+its better to now display info rather than displaying wrong one
+```
 
 ---
 
