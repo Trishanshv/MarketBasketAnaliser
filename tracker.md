@@ -70,10 +70,10 @@ This tracker breaks the project into small, incremental, testable features. Each
 ---
 
 ## Phase 5 — Association Rule Generation
-- [ ] Generate rules using `association_rules()` (mlxtend) from frequent itemsets
-- [ ] Set thresholds for Confidence and Lift to filter meaningful rules
-- [ ] Sort rules by Lift (strongest associations first)
-- [ ] Save final rule set to `outputs/association_rules.csv`
+- [x] Generate rules using `association_rules()` (mlxtend) from frequent itemsets
+- [x] Set thresholds for Confidence and Lift to filter meaningful rules
+- [x] Sort rules by Lift (strongest associations first)
+- [x] Save final rule set to `outputs/association_rules.csv`
 
 **Depends on:** Phase 4
 **Unlocks:** Phase 6
@@ -82,12 +82,12 @@ This tracker breaks the project into small, incremental, testable features. Each
 ---
 
 ## Phase 6 — Visualization & Business Insights
-- [ ] Bar chart: Top 10 frequent itemsets by support
-- [ ] Scatter plot: Support vs Confidence (bubble size = Lift)
-- [ ] Network graph of item-to-item associations (networkx)
-- [ ] Write plain-English business recommendations from top rules
+- [x] Bar chart: Top 10 frequent itemsets by support
+- [x] Scatter plot: Support vs Confidence (bubble size = Lift)
+- [x] Network graph of item-to-item associations (networkx)
+- [x] Write plain-English business recommendations from top rules
       (e.g. "Bundle Item A + Item B — 70% of Item A buyers also buy Item B")
-- [ ] Add final insights summary to README/notebook
+- [x] Add final insights summary to README/notebook
 
 **Depends on:** Phase 5
 **Unlocks:** Phase 7 (optional) or Project Complete
